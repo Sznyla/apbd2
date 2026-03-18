@@ -8,7 +8,7 @@ string input1 = Console.ReadLine();
 double num1 = Convert.ToDouble(input1);
 
 
-Console.Write("Wybierz działanie (+, -, *, /): ");
+Console.Write("Wybierz działanie (+, -, *, /, **): ");
 string op = Console.ReadLine();
 
 
@@ -43,6 +43,13 @@ switch (op)
         {
             Console.WriteLine("nie dzielimy przez 0");
         }
+        break;
+    case "**":
+    {
+        result = num1 * num1;
+        Console.WriteLine($"Wynik: {num1} * {num1} = {result}");
+
+    }
         break;
     default:
         Console.WriteLine("nieprawidłowy znak działania.");
