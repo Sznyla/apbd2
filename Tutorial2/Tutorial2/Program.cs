@@ -60,6 +60,8 @@ switch (op)
         break;
     case "****":
     {
+        result = num1 * num1 * num1 * num1;
+        Console.WriteLine($"Wynik: {num1} * {num1} * {num1} * {num1} = {result}");
 
     }
         break;
