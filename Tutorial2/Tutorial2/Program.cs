@@ -55,7 +55,7 @@ switch (op)
     {
         result = num1 * num1;
         Console.WriteLine($"Wynik: {num1} * {num1} * {num1} = {result}");
-
+// kom
     }
         break;
     default:
