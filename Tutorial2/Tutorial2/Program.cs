@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Prosty Kalkulator ");
+Console.WriteLine("kalc wersja główna  ");
 
 
 Console.Write("Podaj pierwszą liczbę: ");
