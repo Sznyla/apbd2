@@ -29,22 +29,5 @@ switch (op)
         result = num1 - num2;
         Console.WriteLine($"Wynik: {num1} - {num2} = {result}");
         break;
-    case "*":
-        result = num1 * num2;
-        Console.WriteLine($"Wynik: {num1} * {num2} = {result}");
-        break;
-    case "/":
-        if (num2 != 0)
-        {
-            result = num1 / num2;
-            Console.WriteLine($"Wynik: {num1} / {num2} = {result}");
-        }
-        else
-        {
-            Console.WriteLine("nie dzielimy przez 0");
-        }
-        break;
-    default:
-        Console.WriteLine("nieprawidłowy znak działania.");
-        break;
+ 
 }
