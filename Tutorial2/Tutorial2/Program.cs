@@ -25,4 +25,9 @@ switch (op)
         result = num1 + num2;
         Console.WriteLine($"Wynik: {num1} + {num2} = {result}");
         break;
+    case "-":
+        result = num1 - num2;
+        Console.WriteLine($"Wynik: {num1} - {num2} = {result}");
+        break;
+   
 }
